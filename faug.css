@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+.main-contianer{
+    background-image: url('faug.jpg');
+    width: 100vw;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.input-container{
+    background-color:hsla(0, 36%, 5%, 0.8);
+    padding: 40px 30px;
+    width: 50%;
+    min-width:200px;
+    max-width: 350px;
+    border-radius: 30px 0px  30px 0px;
+    border: 1px solid #fc808067;  
+}
+.input-container:hover{
+    box-shadow: 1px 3px 8px rgba(218, 204, 18, 0.822);
+    main-container{
+        filter: blur(2px);
+    }
+}
+h3{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin:0px;
+    margin-bottom: 50px;
+    font-size: 2.1em;
+}
+.input-group{
+    display:flex;
+    flex-flow: column;
+    margin-bottom: 15px;
+}
+label{
+    font-weight:normal;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: lighter;
+
+}
+.inputbtn{
+    border:1px solid rgb(100, 129, 182);
+    outline: none;
+    color: khaki;
+    font-size:1em;
+    padding: 8px;
+    background:hsla(0, 15%, 18%, 0.8);
+    border-radius: 5px
+    
+}
+.inputbtn:focus{
+    border: 1px solid rgb(230, 154, 169) 
+}
+.submitbtn{
+    background:hsla(0, 36%, 5%, 0.2);
+    padding: 8px;
+    outline: none;
+    font-size:0.9em;
+    width: 100%;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: lighter;
+    border:1px solid rgb(100, 129, 182);
+    border-radius: 5px;
+}
+.submitbtn:hover{
+    background:#2f7a7a;
+}
+
+
+/* ****** First Page ********** */
+
+#heading{
+    font-size: 2em;
+    color:rgb(53, 219, 103);
+}
+
