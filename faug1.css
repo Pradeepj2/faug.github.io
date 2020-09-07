@@ -25,8 +25,12 @@ body,html{
     font-size:2vw;
     color:rgb(53, 219, 103);
 }
+#heading h1{
+    margin-bottom: 0px;
+
+}
 #heading h3{
-    margin-top: -35px;
+    margin-top: 0px;
     margin-left: 35px;
 }
 .butt button{
